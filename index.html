@@ -181,11 +181,59 @@
             display: block;
             margin-bottom: 10px;
         }
+        
+        .references-section {
+            max-height: 70vh;
+            overflow-y: auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        
+        .reference-item {
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #4ECDC4;
+            transition: all 0.3s ease;
+        }
+        
+        .reference-item:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateX(5px);
+        }
+        
+        .reference-author {
+            font-weight: bold;
+            color: #FFD700;
+        }
+        
+        .reference-title {
+            font-style: italic;
+            color: #E8F8F5;
+            margin: 5px 0;
+        }
+        
+        .reference-details {
+            color: #B8E6E0;
+            font-size: 0.95em;
+        }
+        
+        .references-intro {
+            font-size: 1.2em;
+            margin-bottom: 25px;
+            color: #FFD700;
+        }
     </style>
 </head>
 <body>
     <div class="slide-counter">
-        <span id="current-slide">1</span> / 5
+        <span id="current-slide">1</span> / 6
     </div>
     
     <div class="presentation-container">
@@ -326,6 +374,57 @@
             <p style="font-size: 1.2em;">
                 💡 Dominar las fracciones es dominar una herramienta universal de comprensión numérica
             </p><br><br>
+        </div>
+        
+        <!-- Diapositiva 6: Referencias -->
+        <div class="slide">
+            <h2>📚 Referencias Bibliográficas</h2>
+            
+            <p class="references-intro">Fuentes académicas y recursos consultados para esta presentación</p>
+            
+            <div class="references-section">
+                <div class="reference-item">
+                    <div class="reference-author">Charalambous, C. Y. & Pitta-Pantazi, D.</div>
+                    <div class="reference-title">Drawing on a theoretical model to study students' understandings of fractions</div>
+                    <div class="reference-details">Educational Studies in Mathematics, 64(3), 293-316. (2007)</div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-author">Siegler, R. S., Thompson, C. A., & Schneider, M.</div>
+                    <div class="reference-title">An integrated theory of whole number and fractions development</div>
+                    <div class="reference-details">Cognitive Psychology, 62(4), 273-296. (2011)</div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-author">Kieren, T. E.</div>
+                    <div class="reference-title">On the mathematical, cognitive, and instructional foundations of rational numbers</div>
+                    <div class="reference-details">Number concepts and operations in the middle grades, 101-144. (1988)</div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-author">Behr, M. J., Lesh, R., Post, T. R., & Silver, E. A.</div>
+                    <div class="reference-title">Rational-number concepts in Acquisition of mathematics concepts and processes</div>
+                    <div class="reference-details">Academic Press, 91-126. (1983)</div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-author">Van de Walle, J. A., Karp, K. S., & Bay-Williams, J. M.</div>
+                    <div class="reference-title">Elementary and Middle School Mathematics: Teaching Developmentally</div>
+                    <div class="reference-details">9th Edition. Pearson Education. (2019)</div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-author">NCTM (National Council of Teachers of Mathematics)</div>
+                    <div class="reference-title">Principles and Standards for School Mathematics</div>
+                    <div class="reference-details">Reston, VA: Author. (2000)</div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-author">Clarke, D. M., Roche, A., & Mitchell, A.</div>
+                    <div class="reference-title">Ten practical tips for making fractions come alive and make sense</div>
+                    <div class="reference-details">Mathematics Teaching in the Middle School, 13(7), 372-380. (2008)</div>
+                </div>
+            </div>
         </div>
     </div>
     
